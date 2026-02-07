@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bus Ticket Booking</h1>
+        <form id="ticketForm" action="/book-ticket" method="POST">
+            <label for="name">Passenger Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+
+            <label>Gender</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="Male" required> Male</label>
+                <label><input type="radio" name="gender" value="Female" required> Female</label>
+            </div>
+
+            <label>Berth Preference</label>
+            <div class="radio-group">
+                <label><input type="radio" name="berthPreference" value="Upper" required> Upper</label>
+                <label><input type="radio" name="berthPreference" value="Lower" required> Lower</label>
+            </div>
+
+            <label for="departingTime">Departing Time</label>
+            <select id="departingTime" name="departingTime" required>
+                <option value="6:00 AM">6:00 AM</option>
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="12:00 PM">12:00 PM</option>
+                <option value="3:00 PM">3:00 PM</option>
+                <option value="6:00 PM">6:00 PM</option>
+                <option value="9:00 PM">9:00 PM</option>
+            </select>
+
+            <label for="departingPlace">From</label>
+            <select id="departingPlace" name="departingPlace" required>
+                <option value="Salem">Salem</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Trichy">Trichy</option>
+            </select>
+            
+            <label for="arrivalPlace">To</label>
+            <select id="arrivalPlace" name="arrivalPlace" required>
+                <option value="Salem">Salem</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Trichy">Trichy</option>
+            </select>
+
+            <label for="date">Date of Travel</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="numMembers">Number of Members</label>
+            <input type="number" id="numMembers" name="numMembers" min="1" required>
+
+            <button type="submit">Book Ticket</button>
+        </form>
+    </div>
+</body>
+</html>
