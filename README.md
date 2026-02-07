@@ -1,6 +1,6 @@
 # BUS TICKET MANAGEMENT SYSTEM
 
-This is a simple **Bus Ticket Management System** developed as a beginner-level project to understand frontend and backend integration.
+This is a simple **Bus Ticket Management System** developed as a beginner-level project to understand frontend and backend integration. It was my 2nd year capstone project.
 
 The project was initially created using only HTML and CSS for the frontend. Later, backend functionality was added using **Node.js, Express.js, and MongoDB** to manage user authentication and ticket booking.
 
