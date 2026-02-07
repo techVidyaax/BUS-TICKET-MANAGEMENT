@@ -1,51 +1,49 @@
-##BUS TICKET MANAGEMENT SYSTEM
+# BUS TICKET MANAGEMENT SYSTEM
 
-This is a simple Bus Ticket Management System developed as a beginner-friendly project to understand both frontend and backend integration.
+This is a simple **Bus Ticket Management System** developed as a beginner-level project to understand frontend and backend integration.
 
-The project was initially built using only HTML and CSS for the frontend. Later, a backend was added using Node.js, Express, and MongoDB to handle user authentication and ticket booking.
+The project was initially created using only HTML and CSS for the frontend. Later, backend functionality was added using **Node.js, Express.js, and MongoDB** to manage user authentication and ticket booking.
 
-This project is mainly created for learning purposes and for future reference, so that I can recall the projects I have worked on and understand the complete flow of a web application.
+This project is mainly built for learning purposes and future reference, so that the complete flow of a full-stack application can be easily remembered and understood.
 
-Features
+---
 
-Landing page with Login and Sign Up options
+## Features
 
-User registration and login functionality
+- Landing page with Login and Sign Up options  
+- User registration and login  
+- Bus ticket booking form  
+- Ticket booking data stored in MongoDB  
+- Simple and clean user interface  
 
-Bus ticket booking form
+---
 
-Ticket booking data stored in MongoDB
+## Technologies Used
 
-Simple and user-friendly UI
+### Frontend
+- HTML  
+- CSS  
 
-Technologies Used
+### Backend
+- Node.js  
+- Express.js  
 
-Frontend:
+### Database
+- MongoDB  
 
-HTML
+---
 
-CSS
+## Project Purpose
 
-Backend:
+The purpose of this project is to:
+- Practice frontend development using HTML and CSS  
+- Learn backend development using Node.js and Express  
+- Understand database integration using MongoDB  
+- Gain hands-on experience in building a full-stack web application  
 
-Node.js
+Although simple, this project is very helpful for beginners.
+---
 
-Express.js
+## Author
 
-Database:
-
-MongoDB
-
-Project Purpose
-
-The main goal of this project is:
-
-To practice frontend design using HTML and CSS
-
-To understand backend development with Node.js and Express
-
-To learn basic database operations using MongoDB
-
-To build confidence in full-stack development
-
-This is a simple project but very useful for beginners and future learning.
+Developed by **techVidyaax**
